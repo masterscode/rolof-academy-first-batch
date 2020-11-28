@@ -1,0 +1,115 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin:0;
+}
+nav{
+    background-color: rgb(0,174, 255);
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px ;
+}
+.active{background-color: rgba(155, 201, 223, 0.8);}
+.link{
+    padding: 10px;
+    margin: 0px 5px;
+    color: white;
+    transition-property: background;
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-duration: 400ms;
+}
+.link:hover{
+    background-color: white;
+    color: rgb(0, 174, 255);
+}
+a{text-decoration: none;}
+
+.hero{
+    height:450px;
+    background-image: url('../images/post.png');
+    background-size: cover;
+    object-position: center;
+}
+.hero-overlay{
+    background-color: rgba(0,0,0,.3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 15px 30px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.btn-blue{
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
+.btn-white{
+    background-color: white;
+    color: rgb(0, 174, 255);
+}
+
+.hero-lead-text, .lead-text{
+    color: rgb(0, 174, 255);
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+    margin: 10px 0;
+}
+.hero-sub-text{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.features{
+    padding:100px;
+}
+.lead-text{
+    color: initial;
+    text-shadow: initial;
+    font-size: 2rem;
+}
+.sub-text{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.card{
+    width: 25%;
+    padding: 30px 0;
+}
+.icon-wrapper{
+    background: rgb(0, 174, 255);
+    color: white;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.small-lead{font-size: 1.5rem; margin: 20px 0;}
+.sub-text-small{text-align:center;}
+.debug{border: blue dashed medium; background: orangered;}

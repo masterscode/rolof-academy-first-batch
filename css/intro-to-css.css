@@ -1,0 +1,12 @@
+h1{
+    font-family: sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+}
+p{
+    background-color: darkcyan;
+}
+
+.text{
+    background-color: red;
+}

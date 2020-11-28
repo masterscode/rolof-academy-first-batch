@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickApp</title>
+</head>
+<body>
+    <style>
+        :root{
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+        body{
+            display: grid;
+            place-items: center;
+            height: 90vh;
+            transition: ease-in-out 500ms;
+        }
+        button{
+            border: tomato dashed medium;
+            border-radius: 5px;
+            padding: 10px 25px;
+            outline:none;
+
+        }
+        .color-item{
+            display: none;
+        }
+    </style>
+    <button id="change-btn">CHANGE</button>
+
+    <script src="js/click-app.js"></script>
+</body>
+</html>

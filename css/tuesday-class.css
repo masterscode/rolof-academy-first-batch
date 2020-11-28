@@ -1,0 +1,51 @@
+h1{
+    position:sticky;
+    top:0px;
+    background: royalblue;
+    color: white;
+}
+.box{
+    background: red;
+    height: 700px;
+    color: white;
+    font-size: large;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+    list-style-position: initial;
+    padding-inline-start: 0px;
+}
+.chat__box{
+    height: auto;
+    padding:10px;
+    color: whitesmoke;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    transition: ease-in;
+    transition-duration: 300ms;
+    transition-duration:500ms ;
+
+}
+.chat__box:hover{
+    color:red;
+    background-color: white;
+    transform: scale(1.5);
+}
+.icon:hover{
+    color: black;
+    font-size: xx-large;
+}
+
+.text{
+    position:  absolute;
+    top: 200px;
+    left: 300px;
+    background-color: rgba(0,0, 100, .6);
+    padding: 5px;
+    width: 40%;
+}

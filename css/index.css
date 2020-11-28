@@ -1,0 +1,59 @@
+.start__menu__tiles{
+	width: 150px;
+	height:150px;
+	margin:auto;
+	margin-bottom: 2px;
+}
+.start__menu__tiles--blue{background-color: royalblue;}
+.start__menu__tiles--violet{background-color: rgb(49, 4, 63);}
+.start__menu__tiles--black{background-color: rgb(63, 64, 66);}
+
+
+
+.heading{
+	font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif ;
+	font-size: 60px;
+	/* font-style: italic; */
+	/* font:small italic sans-serif; */
+	color: grey;
+	/* text-align: right; */
+	text-transform: capitalize;
+}
+
+.heading:hover{
+	text-shadow: 5px 2px 1px lightgrey,
+				6px 3px 2px lightgrey,
+				7px 4px 3px lightgrey;
+}
+.heading::after{
+	content:;
+}
+.test__text{
+	text-align: justify;
+	/* text-transform:  ; */
+	text-decoration: ;
+	/* text-shadow:  ; */
+	width: 300px;
+	margin: auto;
+}
+.test__class{
+	margin: auto;
+	width: 50%;
+	height: 400px;
+	/* background: radial-gradient(red 50%, green , blue 40%) */
+	/* color: rgb(120,120, 130); */
+	/* background-color: red; */
+	background-image: url('../images/clark-tibbs-unsplash.jpg');	
+	background-position: center;
+	background-size: 100%;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.h{
+	height: 500px;
+	background-color: royalblue;
+}
+

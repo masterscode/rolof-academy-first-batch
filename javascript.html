@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+
+        .show {
+            width: 70%;
+            background-color: orangered;
+            font-size: 5vw;
+            height: 200px;
+            text-align: center;
+            font-weight: bolder;
+            overflow-y:scroll;
+        }
+        .show::-webkit-scrollbar{width:10px; background: linear-gradient(orange, orangered); border-radius:10px;}
+        .show::-webkit-scrollbar-button{background-color: black; color: white;}
+    </style>
+    
+    <div class="show">
+        hello js
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

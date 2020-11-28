@@ -1,0 +1,54 @@
+:root{
+    box-sizing: border-box;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.display-time{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    width: 12%;
+    padding: 5rem;
+    background-color: orangered;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12rem;
+    color:orange;   
+    border-radius: 10px;
+    animation-name: flip;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    transition: transform ease;
+}
+button, input{
+    padding:2px 2rem;
+}
+button{
+    border: none;
+    background: orange;
+    padding: 5px 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+@keyframes flip{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        tranform: rotateX(180deg);
+    }
+}

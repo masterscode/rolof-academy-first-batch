@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    color:black;
+    text-transform: capitalize;
+}
+
+nav{
+    padding: 20px 100px;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.link{
+    padding: 0 25px;
+    margin: 0 5px;
+}
+
+.hero{
+    height: 450px;
+    background-image: url('../images/clark-tibbs-unsplash.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.hero-overlay{
+    background-color: rgba(0,00,0,.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rule{
+    width: 40%;
+    margin:15px auto;
+}
+.btn{
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.hero-text{
+    text-shadow: 2px 1px 3px grey;
+    color: white;
+    margin: 5px 0;
+}
+.lead-text{
+    font-size: 4rem;
+    font-weight: lighter;
+}

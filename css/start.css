@@ -1,0 +1,13 @@
+.arrow-right{
+    border: solid red;
+    border-width: 0px 5px 5px 0px;
+    display: inline-block;
+    transform: rotate(135deg);
+    padding: 7px;
+}
+.arrow-right::after{
+    content: '';
+    border: solid medium red;
+    /* transform: rotate(); */
+    width: 100%;
+}

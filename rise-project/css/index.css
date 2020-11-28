@@ -1,0 +1,140 @@
+:root {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+button {
+	border: none;
+	outline: none;
+}
+.nav {
+	padding: 10px 100px;
+	margin: 0;
+}
+.nav__logo {
+	margin-right: auto;
+}
+.nav__menu__toggler {
+	width: 10px;
+	float: right;
+	background: none;
+}
+.nav__logo,
+.nav__menu__toggler,
+.hero__overlay,
+.hero__overlay__add__btn,
+.card__icon {
+	color: white;
+}
+.nav--black {
+	background-color: rgb(14, 13, 13);
+}
+.hero {
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url('../../images/clark-tibbs-unsplash.jpg');
+}
+.hero__overlay, .skills, .card__icon{
+	background-color: rgba(0, 0, 0, .5);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero__overlay__main__text,
+.hero__overlay__subtext,
+.hero__overlay__btn, 
+.skills__main__title, 
+.skills__sub__title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.hero__overlay__main__text, .skills__main__title {
+	font-weight: bolder;
+	font-size: 70px;
+	margin: 1px;
+}
+.hero__overlay__subtext {
+	font-weight: lighter;
+	font-size: medium;
+}
+.hero__overlay__btn {
+    height: 30px;
+    margin-top: 25px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.hero__overlay__add__btn{
+    transform: translate(-670px, 100px);
+    background-color: grey;
+    padding: 5px;
+}
+.amp{
+	font-family: 'french script';
+	font-size: xx-large;
+}
+.skills{
+	padding: 25px;
+	background-color:lightgrey;
+}
+.skills__main__title{
+	font-size: 35px;
+	font-weight: bolder;
+	width: 60%;
+}
+
+
+.cards{
+	width: 60%;
+	display: flex;
+	/* background-color: red; */
+	justify-content: space-evenly;
+}
+
+.card{
+	width: 23%;
+	height: auto;
+	padding: 10px;
+	/* background:red; */
+}
+
+.card__icon{
+	background-color: grey;
+	height: 70px;
+	width: 70px;
+	margin: auto;
+	text-align: center;
+	border-radius: 50%;	
+}
+
+.card__title{
+	text-align: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin-bottom: 1px;
+}
+.card__text{
+	text-align: center;
+	
+}
+.card__btn{
+	padding: 10px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+	text-transform: capitalize;
+	background: none;
+	border:  solid thin black;
+}
+
